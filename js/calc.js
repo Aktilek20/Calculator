@@ -34,7 +34,6 @@ document.querySelector('.buttons').onclick = (event) => {
   
     if (digit.includes(key)) {
         if (b === "" && sign === "") {
-             Вводим `a`
             a += key;
             out.textContent = a;
         } else if (a !== "" && b !== "" && finish) {
@@ -43,7 +42,6 @@ document.querySelector('.buttons').onclick = (event) => {
             finish = false;
             out.textContent = b;
         } else {
-             Вводим `b`
             b += key;
             out.textContent = b;
         }
